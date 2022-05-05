@@ -10,7 +10,7 @@ var shuffleSequence = seq(
     'setcounter',
     'intro',
     'shared-intro',
-    sepWith("sep", rshuffle(startsWith('MODALITYNEGATION'),startsWith('filler'))),
+    sepWith("sep", rshuffle(startsWith('IMPLICATURES'),startsWith('filler'))),
     "debrief", 
     "hiddenCompletionCode");
 
