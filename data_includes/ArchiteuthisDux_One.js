@@ -89,8 +89,8 @@ var items = [
 
  [["IMPLICATURES-a1",1], "Question", {q: [["div",
                                                                  ["p","Mary: Some meals are adequate."],
-                                                                 ["p"," Would you conclude from this that, according to Mary, some but not all meals are adequate.?",as:  [['s','Yes'],['k','No']   ]   ]    ]     } 
- "Question", {q: [["div",
+                                                                 ["p"," Would you conclude from this that, according to Mary, some but not all meals are adequate.?",as:  [['s','Yes'],['k','No']   ]   ]    ]     } ,
+  "Question", {q: [["div",
                                                                  ["p","Mary: Some meals are adequate."],
                                                                  ["p"," Would you conclude from this that, according to Mary, some but not all meals are adequate.?",as:  [['s','Yes'],['k','No']   ]   ]    ]     }], 
 
