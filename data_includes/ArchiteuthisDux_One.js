@@ -836,7 +836,7 @@ var items = [
 [["filler",57], "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is possible but not certain that the streets are wide.'?",as: [['s','Yes'],['k','No']]},
                           "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is possible that the streets are wide but not narrow?",as: [['s','Yes'],['k','No']]},
                           "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is certain that the streets are not narrow.'?",as: [['s','Yes'],['k','No']]},
-                          "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is possible but not certain that the streets are wide but not narrow.'?",as: [['s','Yes'],['k','No']]},   
+                          "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is possible but not certain that the streets are wide but not narrow.'?",as: [['s','Yes'],['k','No']]}],   
 
  
  
