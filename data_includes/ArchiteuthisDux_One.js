@@ -781,47 +781,71 @@ var items = [
     //// Fillers
      
 
+[["filler-some",44], "Question", {q:"Would you infer from ‘Some tables are clean.’ that 'Some but not all tables are clean'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some tables are clean.’ that 'Some tables are clean but not dirty. '?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some tables are clean.’ that 'No painting is dirty.'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some tables are clean.’ that 'Some but not all tables are clean but not dirty.'?",as: [['s','Yes'],['k','No']]}],
+[["filler-some",45],"Question", {q:"Would you infer from ‘Some soldiers are dangerous.’ that 'Some but not all soldiers are dangerous'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some soldiers are dangerous.’ that 'Some soldiers are dangerous but not harmless. '?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some soldiers are dangerous.’ that 'No painting is harmless.'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some soldiers are dangerous.’ that 'Some but not all soldiers are dangerous but not harmless.'?",as: [['s','Yes'],['k','No']]}],
+[["filler-some",46],"Question", {q:"Would you infer from ‘Some men are drunk.’ that 'Some but not all men are drunk'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some men are drunk.’ that 'Some men are drunk but not sober. '?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some men are drunk.’ that 'No man is sober.'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some men are drunk.’ that 'Some but not all men are drunk but not sober.'?",as: [['s','Yes'],['k','No']]}],
+[["filler-some",47],"Question", {q:"Would you infer from ‘Some neighbors are sleepy.’ that 'Some but not all neighbors are sleepy'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some neighbors are sleepy.’ that 'Some neighbors are sleepy but not rich. '?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some neighbors are sleepy.’ that 'No neighbor is rich.'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some neighbors are sleepy.’ that 'Some but not all neighbors are sleepy but not rich.'?",as: [['s','Yes'],['k','No']]}],
+[["filler-some",48], "Question", {q:"Would you infer from ‘Some gymnasts are tall.’ that 'Some but not all gymnasts are tall'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some gymnasts are tall.’ that 'Some gymnasts are tall but not single. '?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some gymnasts are tall.’ that 'No gymnast is single.'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some gymnasts are tall.’ that 'Some but not all gymnasts are tall but not single.'?",as: [['s','Yes'],['k','No']]}],
+[["filler-some",49], "Question", {q:"Would you infer from ‘Some dolls are ugly.’ that 'Some but not all dolls are ugly'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some dolls are ugly.’ that 'Some dolls are ugly but not old. '?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some dolls are ugly.’ that 'No doll is old.'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some dolls are ugly.’ that 'Some but not all dolls are ugly but not old.'?",as: [['s','Yes'],['k','No']]}],
+[["filler-some",50],   "Question", {q:"Would you infer from ‘Some streets are wide.’ that 'Some but not all streets are wide'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some streets are wide.’ that 'Some streets are wide but not narrow. '?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some streets are wide.’ that 'No street is narrow.'?",as: [['s','Yes'],['k','No']]},
+                       "Question", {q:"Would you infer from ‘Some streets are wide.’ that 'Some but not all streets are wide but not narrow.'?",as: [['s','Yes'],['k','No']]}],
+[["filler-possible", 51], "Question", {q:"Would you infer from ‘It is possible that the tables are clean.’ that 'It is possible but not certain that the tables are clean.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the tables are clean.’ that 'It is possible that the tables are clean but not dirty?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the tables are clean.’ that 'It is certain that the tables are not dirty.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the tables are clean.’ that 'It is possible but not certain that the tables are clean but not dirty.'?",as: [['s','Yes'],['k','No']]}],    
+[["filler-possible",52], "Question", {q:"Would you infer from ‘It is possible that the soldiers are dangerous.’ that 'It is possible but not certain that the soldiers are dangerous.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the soldiers are dangerous.’ that 'It is possible that the soldiers are dangerous but not harmless?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the soldiers are dangerous.’ that 'It is certain that the soldiers are not harmless.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the soldiers are dangerous.’ that 'It is possible but not certain that the soldiers are dangerous but not harmless.'?",as: [['s','Yes'],['k','No']]}],    
+ [["filler-possible",53], "Question", {q:"Would you infer from ‘It is possible that the men are drunk.’ that 'It is possible but not certain that the men are drunk.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the men are drunk.’ that 'It is possible that the men are drunk but not sober?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the men are drunk.’ that 'It is certain that the men are not sober.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the men are drunk.’ that 'It is possible but not certain that the men are drunk but not sober.'?",as: [['s','Yes'],['k','No']]}],    
+ [["filler-possible",54], "Question", {q:"Would you infer from ‘It is possible that the neighbors are sleepy.’ that 'It is possible but not certain that the neighbors are sleepy.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the neighbors are sleepy.’ that 'It is possible that the neighbors are sleepy but not rich?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the neighbors are sleepy.’ that 'It is certain that the neighbors are not rich.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the neighbors are sleepy.’ that 'It is possible but not certain that the neighbors are sleepy but not rich.'?",as: [['s','Yes'],['k','No']]}],    
+[["filler-possible",55], "Question", {q:"Would you infer from ‘It is possible that the gymnasts are tall.’ that 'It is possible but not certain that the gymnasts are tall.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the gymnasts are tall.’ that 'It is possible that the gymnasts are tall but not single?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the gymnasts are tall.’ that 'It is certain that the gymnasts are not single.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the gymnasts are tall.’ that 'It is possible but not certain that the gymnasts are tall but not single.'?",as: [['s','Yes'],['k','No']]}],    
+[["filler-possible",56], "Question", {q:"Would you infer from ‘It is possible that the dolls are ugly.’ that 'It is possible but not certain that the dolls are ugly.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the dolls are ugly.’ that 'It is possible that the dolls are ugly but not old?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the dolls are ugly.’ that 'It is certain that the dolls are not old.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the dolls are ugly.’ that 'It is possible but not certain that the dolls are ugly but not old.'?",as: [['s','Yes'],['k','No']]}],    
+[["filler-possible",57], "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is possible but not certain that the streets are wide.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is possible that the streets are wide but not narrow?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is certain that the streets are not narrow.'?",as: [['s','Yes'],['k','No']]},
+                          "Question", {q:"Would you infer from ‘It is possible that the streets are wide.’ that 'It is possible but not certain that the streets are wide but not narrow.'?",as: [['s','Yes'],['k','No']]}]   
 
+ 
+ 
 
-
-//// Fillers
-[["filler-should",9],"Question", {q:"In ‘Mary shouldn't be upset. Her father will give her a new car.’, ‘Mary shouldn't be upset.’ means",as: [['s','It is necessary that Mary is not upset.'],['k','It is not necessary that Mary is upset.']]},
-                     "AcceptabilityJudgment", {s: "How acceptable do you think ‘Mary shouldn't be upset.’ is in the context ‘Mary shouldn't be upset. Her father will give her a new car.’?"}],          
-[["filler-should",10], "Question", {q:"In ‘You shouldn't be annoyed. Your wife will cook dinner for you.’, ‘You shouldn't be annoyed.’ means",as: [['s','It is necessary that you are not annoyed.'],['k','It is not necessary that you are annoyed.']]},
-                       "AcceptabilityJudgment", {s: "How acceptable do you think ‘You shouldn't be annoyed.’ is in the context ‘You shouldn't be annoyed.Your wife will cook dinner for you.’?"}],
-[["filler-should",11],  "Question", {q:"In ‘Tim shouldn't cook rice. His girlfriend does not like it.’, ‘Tim shouldn't cook rice.’ means",as: [['s','It is necessary that Tim does not cook rice.'],['k','It is not necessary that Tom cooks rice.']]},
-                        "AcceptabilityJudgment", {s: "How acceptable do you think ‘Tim shouldn't cook rice.’ is in the context ‘Tim shouldn't cook rice. His girlfriend does not like it.’?"}],
-[["filler-should",12],  "Question", {q:"In  ‘You shouldn't write the first draft yourself. Linda is the first author.’, 'You shouldn't write the first draft yourself.' means",as: [['s','It is necessary that you do not write the first draft yourself.'],['k','It is not necessary that you write the first draft yourself.']]},
-                        "AcceptabilityJudgment", {s: "How acceptable do you think ‘You shouldn't write the first draft yourself.’ is in the context ‘You shouldn't write the first draft yourself. Linda is the first author.’?"}],
-[["filler-need",13], "Question", {q:"In ‘Tom needn't be offended. The woman didn't want to insult him at all.’, 'Tom needn't be offended.' means",as: [['s','It is necessary that Tom is not offended.'],['k','It is not necessary that Tom is offended.']]},
-                      "AcceptabilityJudgment", {s: "How acceptable do you think ‘Tom needn't be offended.’ is in the context ‘Tom needn't be offended. The woman didn't want to insult him at all.’?"}],
-[["filler-need",14], "Question", {q:"In  ‘You needn't be outraged. The professor is simply joking a bit.’, ‘You needn't be outraged. ’ means",as: [['s','It is necessary that you are not outraged.'],['k','It is not necessary that you are outraged.']]},
-                     "AcceptabilityJudgment", {s: "How acceptable do you think ‘You needn't be outraged.’ is in the context ‘You needn't be outraged. The professor is simply joking a bit.’?"}],
-[["filler-need",15], "Question", {q:"In ‘Sophie needn't tidy the room today. It still looks quite great.’, ‘Sophie needn't tidy the room today.’ means",as: [['s','It is necessary that Sophie does not tidy the room.'],['k','It is not necessary that Sophie tidies the room.']]},
-                      "AcceptabilityJudgment", {s: "How acceptable do you think ‘Sophie needn't tidy the room today.’ is in the context ‘Sophie needn't tidy the room today. It still looks quite great.’?"}],
-[["filler-need",16], "Question", {q:"In ‘You needn't draw all the materials yourself. You can hire a designer.’, ‘You needn't draw all the materials yourself.’ means",as: [['s','It is necessary that you do not draw all the materials yourself.'],['k','It is not necessary that you draw all the materials yourself.']]},
-                     "AcceptabilityJudgment", {s: "How acceptable do you think ‘You needn't draw all the materials yourself.’ is in the context ‘You needn't draw all the materials yourself. You can hire a designer.’?"}],
-
-[["filler-should",17],"Question", {q:"In ‘Tom shouldn't be happy. The school will give him a lot of money.’, ‘Tom shouldn't be happy.’ means",as: [['s','It is necessary that Tom is not happy.'],['k','It is not necessary that Tom is happy.']]},
-                     "AcceptabilityJudgment", {s: "How acceptable do you think ‘Tom shouldn’t be happy.’ is in the context ‘Tom shouldn't be happy. The school will give him a lot of money.’?"}],          
-[["filler-should",18], "Question", {q:"In ‘You shouldn't be amazed. Your wife won the biggest film prize ever.’, ‘You shouldn't be amazed.’ means",as: [['s','It is necessary that you are not amazed.'],['k','It is not necessary that you are amazed.']]},
-                       "AcceptabilityJudgment", {s: "How acceptable do you think ‘You shouldn't be amazed.’ is in the context ‘You shouldn't be amazed. Your wife won the biggest film prize ever.’?"}],
-[["filler-should",19],  "Question", {q:"In ‘Linda shouldn’t help Mary. Mary is feeling very lost.’, ‘Linda shouldn’t help Mary.’ means",as: [['s','It is necessary that Linda does not help Mary.'],['k','It is not necessary that Linda helps Mary.']]},
-                        "AcceptabilityJudgment", {s: "How acceptable do you think ‘Linda shouldn’t help Mary.’ is in the context ‘Linda shouldn’t help Mary. Mary is feeling very lost.’?"}],
-[["filler-should",20],  "Question", {q:"In  ‘You shouldn't talk kindly to yourself. You will end up with depression.’, 'You shouldn't talk kindly to yourself.' means",as: [['s','It is necessary that you do not talk kindly to yourself.'],['k','It is not necessary that you talk kindly to yourself.']]},
-                        "AcceptabilityJudgment", {s: "How acceptable do you think ‘You shouldn't talk kindly to yourself.’ is in the context ‘You  shouldn't talk kindly to yourself. You will end up with depression.’?"}],
-[["filler-need", 21], "Question", {q:"In ‘Bill needn't be excited. The woman invited him to his favorite film.’, ‘Bill needn't be excited.’ means",as: [['s','It is necessary that Bill is not excited.'],['k','It is not necessary that Bill is excited.']]},
-                      "AcceptabilityJudgment", {s: "How acceptable do you think ‘Bill needn't be excited.’ is in the context ‘Bill needn't be excited. The woman invited him to his favorite film.’?"}],
-[["filler-need",22], "Question", {q:"In  ‘You needn't be pleased. Your husband gave you a wonderful gift.’, ‘You needn't be pleased. ’ means",as: [['s','It is necessary that you are not pleased.'],['k','It is not necessary that you are pleased.']]},
-                     "AcceptabilityJudgment", {s: "How acceptable do you think ‘You needn't be pleased.’ is in the context ‘' You needn't be pleased. Your husband gave you a wonderful gift.’?"}],
-[["filler-need",23], "Question", {q:"In ‘Sarah needn't take care of the sick. They are in great suffering.’, ‘Sarah needn't take care of the sick.’ means",as: [['s','It is necessary that Sarah does not take care of the sick.'],['k','It is not necessary that Sarah takes care of the sick.']]},
-                      "AcceptabilityJudgment", {s: "How acceptable do you think ‘Sophie needn't take care of the sick.’ is in the context ‘Sarah needn't take care of the sick. They are in great suffering.’?"}],
-[["filler-need",24], "Question", {q:"In ‘You needn't sweep the floor. It is very dirty.’, ‘You needn't sweep the floor.’ means",as: [['s','It is necessary that you do not sweep the floor.'],['k','It is not necessary that you sweep the floor.']]},
-                     "AcceptabilityJudgment", {s: "How acceptable do you think ‘You needn’t sweep the floor. It is very dirty.’ is in the context ‘You needn’t sweep the floor. It is very dirty.’?"}],
-["hiddenCompletionCode", "FlashSentence", {s: String(completionCode), timeout: 1, sentenceDescType: "literal"}] 
+["hiddenCompletionCode", "FlashSentence", {s: String(completionCode), timeout: 1, sentenceDescType: "literal"}]
 
 
     ]   
+
 
 
 
