@@ -62,7 +62,7 @@ var items = [
                    html: ["div",
                            ["p", "Let's practice a bit before we start."]
                          ]}],
-['shared-intro',"Question", {q: "<p> Tim: People use cars too much.</p><p>Would you conclude from this that, Tim, men should travel by plane instead?</p>",
+['shared-intro',"Question", {q: "<p> Tim: <i>People use cars too much.</i></p><p>Would you conclude from this that, Tim, men should travel by plane instead?</p>",
         as: [['s','Yes'],['k','No']]}], 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
@@ -70,9 +70,9 @@ var items = [
                            ["p", "Let's practice more."],
                            ]}],
                    
-['shared-intro', "Question", {q: "<p> Linda: Birds are cute.</p><p>Would you conclude from this that, according to Linda, birds are small?</p>",
+['shared-intro', "Question", {q: "<p> Linda: <i>Birds are cute.</i></p><p>Would you conclude from this that, according to Linda, birds are small?</p>",
         as: [['s','Yes'],['k','No']]}],  
-['shared-intro', "Question", {q: "<p> Bill: Life is fair.</p><p>Would you conclude from this that, according to Bill, suffering is fair?</p>",
+['shared-intro', "Question", {q: "<p> Bill: <i>Life is fair.</i></p><p>Would you conclude from this that, according to Bill, suffering is fair?</p>",
         as: [['s','Yes'],['k','No']]}], 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
