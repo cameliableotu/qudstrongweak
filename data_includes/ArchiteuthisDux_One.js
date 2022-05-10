@@ -15,7 +15,7 @@ var shuffleSequence = seq(
     "hiddenCompletionCode");
 
 var sendingResultsMessage = "Please wait. Your answers are being sent to the server."; 
-var completionMessage = "Thanks for taking part in the experiment!";
+var completionMessage = "Thanks for taking part in the experiment!Your prolific code is...........Copy the completion code and enter it manually when they close your study and return to Prolific.";
 var completionErrorMessage = "There was an error in sending your answer to the server."; 
 
 // Controller settings.
