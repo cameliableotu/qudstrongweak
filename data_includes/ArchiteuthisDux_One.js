@@ -824,14 +824,14 @@ var items = [
                     "Question", {q:"<p>Lily: <i>It is possible that the dolls are ugly.</i></p><p>Would you conclude from this that, according to Lily, it is possible that the dolls are ugly but not old?</p>",as: [['s','Yes'],['k','No']]},
                     "Question", {q:"<p>Lily: <i>It is possible that the dolls are ugly.</i></p><p>Would you conclude from this that, according to Lily, it is certain that the dolls are not old?</p>",as: [['s','Yes'],['k','No']]},
                     "Question", {q:"<p>Lily: <i>It is possible that the dolls are ugly.</i></p><p>Would you conclude from this that, according to Lily, it is possible but not certain that the dolls are ugly but not old?</p>",as: [['s','Yes'],['k','No']]}],
-[["filler-a1",50], "Question", {q:"<p>Robert: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Robert, some but not all streets are wide?</p>",as: [['s','Yes'],['k','No']]},
-                   "Question", {q:"<p>Robert: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Robert, some streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]},
-                   "Question", {q:"<p>Robert: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Robert, no street is narrow?</p>",as: [['s','Yes'],['k','No']]},
-                   "Question", {q:"<p>Robert: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Robert, some but not all streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]}],
-[["filler-a2",50], "Question", {q:"<p>Robert: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Robert, it is possible but not certain that the streets are wide?</p>",as: [['s','Yes'],['k','No']]},
-                   "Question", {q:"<p>Robert: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Robert, it is possible that the streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]},
-                   "Question", {q:"<p>Robert: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Robert, it is certain that the streets are not narrow?</p>",as: [['s','Yes'],['k','No']]},
-                   "Question", {q:"<p>Robert: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Robert, it is possible but not certain that the streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]}],
+[["filler-a1",50], "Question", {q:"<p>Ronny: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, some but not all streets are wide?</p>",as: [['s','Yes'],['k','No']]},
+                   "Question", {q:"<p>Ronny: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, some streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]},
+                   "Question", {q:"<p>Ronny: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, no street is narrow?</p>",as: [['s','Yes'],['k','No']]},
+                   "Question", {q:"<p>Ronny: <i>Some streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, some but not all streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]}],
+[["filler-a2",50], "Question", {q:"<p>Ronny: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, it is possible but not certain that the streets are wide?</p>",as: [['s','Yes'],['k','No']]},
+                   "Question", {q:"<p>Ronny: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, it is possible that the streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]},
+                   "Question", {q:"<p>Ronny: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, it is certain that the streets are not narrow?</p>",as: [['s','Yes'],['k','No']]},
+                   "Question", {q:"<p>Ronny: <i>It is possible that the streets are wide.</i></p><p>Would you conclude from this that, according to Ronny, it is possible but not certain that the streets are wide but not narrow?</p>",as: [['s','Yes'],['k','No']]}],
 
 ["hiddenCompletionCode", "FlashSentence", {s: String(completionCode), timeout: 1, sentenceDescType: "literal"}]
 
