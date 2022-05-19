@@ -43,8 +43,8 @@ var defaults = [
 var randomnumber=Math.floor(Math.random()*10000000001); 
 var completionCode=String("LIR" + randomnumber); 
 var sendingResultsMessage = "The results are now being transferred. Please wait."; 
-var completionMessage = "Thank you for your participation. The results were successfully transmitted. Your participation code is: " + completionCode; 
-var completionErrorMessage = "The transmission of the results failed. Please contact cameliableotu@gmail.com and retry the transmission again by clicking the link. Your participation code is: " + completionCode; 
+var completionMessage = "Thank you for your participation. The results were successfully transmitted. Your participation code for Prolific is 17681E6D. Please copy-paste it into the Prolific app when you return." ; 
+var completionErrorMessage = "The transmission of the results failed. Please contact cameliableotu@gmail.com and retry the transmission again by clicking the link. Your participation code for Prolific is 17681E6D.Your participation code for Prolific is 17681E6D. Please copy-paste it into the Prolific app when you return."; 
 
 
 // Items array.
