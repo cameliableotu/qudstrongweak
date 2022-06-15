@@ -62,11 +62,11 @@ var items = [
                    html: ["div",
                            ["p", "Let's practice a bit before we start."]
                          ]}],
-['shared-intro',"Question", {q: "<p> Tim: <i>People use cars too much.</i></p><p>Would you conclude from this that, Tim, men should travel by plane instead?</p>",
+['shared-intro',"Question", {q: "<p> Tim: <i>People use planes too much.</i></p><p>Would you conclude from this that, Tim, men should travel by car instead?</p>",
         as: [['s','Yes'],['k','No']]}], 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "How did you find it? You simply have to say whether you would conclude from a certain statement that another statement hancients."],           
+                           ["p", "How did you find it? You simply have to say whether you would conclude from a certain statement that another statement holds."],           
                            ["p", "Let's practice more."],
                            ]}],
                    
