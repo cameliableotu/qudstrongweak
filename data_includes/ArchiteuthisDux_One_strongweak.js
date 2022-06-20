@@ -62,7 +62,7 @@ var items = [
                    html: ["div",
                            ["p", "Let's practice a bit before we start."]
                          ]}],
-['shared-intro',"Question", {q: "<p> Travis: <i>Do people travel by plane?</i><p> Tim: <i>People use cars too much.</i></p><p>Would you conclude from this that, according to Tim, people do not travel by plane enough?</p>",
+['shared-intro',"Question", {q: "<p> Travis: <i>Do people travel by plane?</i><p> Tim: <i>People use cars too much.</i></p><p>Would you conclude from this that, according to Tim, people should travel by plane more?</p>",
         as: [['s','Yes'],['k','No']]}], 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
